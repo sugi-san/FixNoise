@@ -346,9 +346,11 @@ def convert_network_pickle(source, dest, force_fp16):
         pickle.dump(data, f)
     print('Done.')
 
+'''
 #----------------------------------------------------------------------------
 
 if __name__ == "__main__":
     convert_network_pickle() # pylint: disable=no-value-for-parameter
 
 #----------------------------------------------------------------------------
+'''
